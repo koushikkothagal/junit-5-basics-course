@@ -38,6 +38,15 @@ class MathUtilsTest {
 	}
 	
 	@Test 
+	void testMultiply() {
+		assertAll(
+				() -> assertEquals(0, mathUtils.multiply(1, 0)),
+				() -> assertEquals(1, mathUtils.multiply(1, 1)),
+				() -> assertEquals(6, mathUtils.multiply(2, 3))
+				);
+	}
+	
+	@Test 
 	void computeCircleArea() {
 		assertEquals(314.1592653589793, mathUtils.computeCircleArea(10), 
 				"Should return right circle area");
