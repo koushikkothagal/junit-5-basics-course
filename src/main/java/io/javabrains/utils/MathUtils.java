@@ -3,6 +3,7 @@ package io.javabrains.utils;
 public class MathUtils {
 	private String test;
 	private String learn;
+	private String learn3;
 	
 	public int add(int a, int b) {
 		return a + b;
