@@ -1,6 +1,7 @@
 package io.javabrains.utils;
 
 public class MathUtils {
+	private String test;
 	
 	public int add(int a, int b) {
 		return a + b;
